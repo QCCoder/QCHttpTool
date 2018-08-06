@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		765776B12BA7E55A8088FE6C /* Pods_QCHttpTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64475FF801C2BA03DEC9804 /* Pods_QCHttpTool.framework */; };
+		D60BFF762117F39E00ECF0C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D60BFF752117F39E00ECF0C8 /* AppDelegate.m */; };
+		D60BFF792117F39E00ECF0C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60BFF782117F39E00ECF0C8 /* ViewController.m */; };
+		D60BFF7C2117F39E00ECF0C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60BFF7A2117F39E00ECF0C8 /* Main.storyboard */; };
+		D60BFF7E2117F39F00ECF0C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60BFF7D2117F39F00ECF0C8 /* Assets.xcassets */; };
+		D60BFF812117F39F00ECF0C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60BFF7F2117F39F00ECF0C8 /* LaunchScreen.storyboard */; };
+		D60BFF842117F39F00ECF0C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D60BFF832117F39F00ECF0C8 /* main.m */; };
+		D60BFF932117F57A00ECF0C8 /* QCHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D60BFF922117F57A00ECF0C8 /* QCHttpTool.m */; };
+		D60BFF962117F65300ECF0C8 /* QCHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D60BFF952117F65300ECF0C8 /* QCHttpClient.m */; };
+		D6B409AA21182F070073C55A /* QCHttpTool.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D6B409A921182F060073C55A /* QCHttpTool.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		390BFF5744C9721C3A7833C8 /* Pods-QCHttpTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QCHttpTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QCHttpTool/Pods-QCHttpTool.debug.xcconfig"; sourceTree = "<group>"; };
+		542BBF4869F0F7DD65323341 /* Pods-QCHttpTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QCHttpTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-QCHttpTool/Pods-QCHttpTool.release.xcconfig"; sourceTree = "<group>"; };
+		B64475FF801C2BA03DEC9804 /* Pods_QCHttpTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QCHttpTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60BFF712117F39E00ECF0C8 /* QCHttpTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QCHttpTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60BFF742117F39E00ECF0C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D60BFF752117F39E00ECF0C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D60BFF772117F39E00ECF0C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D60BFF782117F39E00ECF0C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D60BFF7B2117F39E00ECF0C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D60BFF7D2117F39F00ECF0C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D60BFF802117F39F00ECF0C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D60BFF822117F39F00ECF0C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D60BFF832117F39F00ECF0C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D60BFF912117F57A00ECF0C8 /* QCHttpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCHttpTool.h; sourceTree = "<group>"; };
+		D60BFF922117F57A00ECF0C8 /* QCHttpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCHttpTool.m; sourceTree = "<group>"; };
+		D60BFF942117F65300ECF0C8 /* QCHttpClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCHttpClient.h; sourceTree = "<group>"; };
+		D60BFF952117F65300ECF0C8 /* QCHttpClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCHttpClient.m; sourceTree = "<group>"; };
+		D6B409A921182F060073C55A /* QCHttpTool.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QCHttpTool.podspec; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D60BFF6E2117F39E00ECF0C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765776B12BA7E55A8088FE6C /* Pods_QCHttpTool.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69960E680266D601E713C2E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				390BFF5744C9721C3A7833C8 /* Pods-QCHttpTool.debug.xcconfig */,
+				542BBF4869F0F7DD65323341 /* Pods-QCHttpTool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		773706DC96CBD6EDC953E3B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B64475FF801C2BA03DEC9804 /* Pods_QCHttpTool.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D60BFF682117F39E00ECF0C8 = {
+			isa = PBXGroup;
+			children = (
+				D6B409A921182F060073C55A /* QCHttpTool.podspec */,
+				D60BFF732117F39E00ECF0C8 /* QCHttpTool */,
+				D60BFF722117F39E00ECF0C8 /* Products */,
+				69960E680266D601E713C2E5 /* Pods */,
+				773706DC96CBD6EDC953E3B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D60BFF722117F39E00ECF0C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D60BFF712117F39E00ECF0C8 /* QCHttpTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D60BFF732117F39E00ECF0C8 /* QCHttpTool */ = {
+			isa = PBXGroup;
+			children = (
+				D60BFF8A2117F46F00ECF0C8 /* QCHttpTool */,
+				D60BFF742117F39E00ECF0C8 /* AppDelegate.h */,
+				D60BFF752117F39E00ECF0C8 /* AppDelegate.m */,
+				D60BFF772117F39E00ECF0C8 /* ViewController.h */,
+				D60BFF782117F39E00ECF0C8 /* ViewController.m */,
+				D60BFF7A2117F39E00ECF0C8 /* Main.storyboard */,
+				D60BFF7D2117F39F00ECF0C8 /* Assets.xcassets */,
+				D60BFF7F2117F39F00ECF0C8 /* LaunchScreen.storyboard */,
+				D60BFF822117F39F00ECF0C8 /* Info.plist */,
+				D60BFF832117F39F00ECF0C8 /* main.m */,
+			);
+			path = QCHttpTool;
+			sourceTree = "<group>";
+		};
+		D60BFF8A2117F46F00ECF0C8 /* QCHttpTool */ = {
+			isa = PBXGroup;
+			children = (
+				D60BFF912117F57A00ECF0C8 /* QCHttpTool.h */,
+				D60BFF922117F57A00ECF0C8 /* QCHttpTool.m */,
+				D60BFF942117F65300ECF0C8 /* QCHttpClient.h */,
+				D60BFF952117F65300ECF0C8 /* QCHttpClient.m */,
+			);
+			path = QCHttpTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D60BFF702117F39E00ECF0C8 /* QCHttpTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60BFF872117F39F00ECF0C8 /* Build configuration list for PBXNativeTarget "QCHttpTool" */;
+			buildPhases = (
+				047EBBA9A3C6F324D0AB7C9E /* [CP] Check Pods Manifest.lock */,
+				D60BFF6D2117F39E00ECF0C8 /* Sources */,
+				D60BFF6E2117F39E00ECF0C8 /* Frameworks */,
+				D60BFF6F2117F39E00ECF0C8 /* Resources */,
+				2685969ACD4574E8CA6A9E26 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QCHttpTool;
+			productName = QCHttpTool;
+			productReference = D60BFF712117F39E00ECF0C8 /* QCHttpTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D60BFF692117F39E00ECF0C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = qiancheng;
+				TargetAttributes = {
+					D60BFF702117F39E00ECF0C8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D60BFF6C2117F39E00ECF0C8 /* Build configuration list for PBXProject "QCHttpTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D60BFF682117F39E00ECF0C8;
+			productRefGroup = D60BFF722117F39E00ECF0C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D60BFF702117F39E00ECF0C8 /* QCHttpTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D60BFF6F2117F39E00ECF0C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60BFF812117F39F00ECF0C8 /* LaunchScreen.storyboard in Resources */,
+				D6B409AA21182F070073C55A /* QCHttpTool.podspec in Resources */,
+				D60BFF7E2117F39F00ECF0C8 /* Assets.xcassets in Resources */,
+				D60BFF7C2117F39E00ECF0C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		047EBBA9A3C6F324D0AB7C9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QCHttpTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2685969ACD4574E8CA6A9E26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QCHttpTool/Pods-QCHttpTool-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QCHttpTool/Pods-QCHttpTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D60BFF6D2117F39E00ECF0C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60BFF792117F39E00ECF0C8 /* ViewController.m in Sources */,
+				D60BFF842117F39F00ECF0C8 /* main.m in Sources */,
+				D60BFF932117F57A00ECF0C8 /* QCHttpTool.m in Sources */,
+				D60BFF962117F65300ECF0C8 /* QCHttpClient.m in Sources */,
+				D60BFF762117F39E00ECF0C8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D60BFF7A2117F39E00ECF0C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D60BFF7B2117F39E00ECF0C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D60BFF7F2117F39F00ECF0C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D60BFF802117F39F00ECF0C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D60BFF852117F39F00ECF0C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D60BFF862117F39F00ECF0C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D60BFF882117F39F00ECF0C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 390BFF5744C9721C3A7833C8 /* Pods-QCHttpTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y68T7ZRAQ8;
+				INFOPLIST_FILE = QCHttpTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiancheng.QCHttpTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D60BFF892117F39F00ECF0C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 542BBF4869F0F7DD65323341 /* Pods-QCHttpTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y68T7ZRAQ8;
+				INFOPLIST_FILE = QCHttpTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiancheng.QCHttpTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D60BFF6C2117F39E00ECF0C8 /* Build configuration list for PBXProject "QCHttpTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60BFF852117F39F00ECF0C8 /* Debug */,
+				D60BFF862117F39F00ECF0C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60BFF872117F39F00ECF0C8 /* Build configuration list for PBXNativeTarget "QCHttpTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60BFF882117F39F00ECF0C8 /* Debug */,
+				D60BFF892117F39F00ECF0C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D60BFF692117F39E00ECF0C8 /* Project object */;
+}

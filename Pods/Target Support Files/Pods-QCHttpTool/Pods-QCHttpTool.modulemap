@@ -1,0 +1,6 @@
+framework module Pods_QCHttpTool {
+  umbrella header "Pods-QCHttpTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
