@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
                     Lib of HttpTool.
                    DESC
 
-  #s.homepage     = ""
+  s.homepage     = "https://github.com/QCCoder"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "qiancheng" => "596896692@qq.com" }
   s.source       = { :git => "git@github.com:QCCoder/QCHttpTool.git", :tag => "#{s.version}" }
@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'QCHttpTool/QCHttpTool/**/*'
   s.public_header_files = 'QCHttpTool/QCHttpTool/**/*.h'
-  s.dependency 'AFNetworking' , 'YYModel'
+  s.dependency 'AFNetworking'
+  s.dependency 'YYModel'
 
 end
