@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/QCCoder"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "qiancheng" => "596896692@qq.com" }
-  s.source       = { :git => "git@github.com:QCCoder/QCHttpTool.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/QCCoder/QCHttpTool.git", :tag => "#{s.version}" }
   s.platform     = :ios, "8.0"
 
   s.source_files = 'QCHttpTool/QCHttpTool/**/*'
