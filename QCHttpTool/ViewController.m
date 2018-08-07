@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "QCHttpTool.h"
+#import "AppConfigModel.h"
 
 @interface ViewController ()
 
@@ -16,6 +18,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [[QCHttpClient shareClient] setHttpHeader:@{@"ga-appname":@"xxx"}];
+    [QCHttpTool getWithSessionClient:@"https://www.xxx.com/apppush-service/appConfig/get" paramters:nil success:^(id json) {
+        NSLog(@"%@",json);
+    } failure:^(QCHttpError *error) {
+        NSLog(@"%@",error.message);
+    }];
+    
+    [QCHttpTool getWithSessionModel:@"https://www.xxx.com/apppush-service/appConfig/get" paramters:nil responseClass:[AppConfigModel class] success:^(AppConfigModel *model) {
+        NSLog(@"%@",model.appName);
+    } failure:^(QCHttpError *error) {
+        NSLog(@"%@",error.message);
+    }];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

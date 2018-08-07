@@ -16,6 +16,7 @@
 		D60BFF842117F39F00ECF0C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D60BFF832117F39F00ECF0C8 /* main.m */; };
 		D60BFF932117F57A00ECF0C8 /* QCHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D60BFF922117F57A00ECF0C8 /* QCHttpTool.m */; };
 		D60BFF962117F65300ECF0C8 /* QCHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D60BFF952117F65300ECF0C8 /* QCHttpClient.m */; };
+		D67ECB8D21196BD3008C08ED /* AppConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D67ECB8C21196BD3008C08ED /* AppConfigModel.m */; };
 		D6B409AA21182F070073C55A /* QCHttpTool.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D6B409A921182F060073C55A /* QCHttpTool.podspec */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,8 @@
 		D60BFF922117F57A00ECF0C8 /* QCHttpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCHttpTool.m; sourceTree = "<group>"; };
 		D60BFF942117F65300ECF0C8 /* QCHttpClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCHttpClient.h; sourceTree = "<group>"; };
 		D60BFF952117F65300ECF0C8 /* QCHttpClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCHttpClient.m; sourceTree = "<group>"; };
+		D67ECB8B21196BD3008C08ED /* AppConfigModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConfigModel.h; sourceTree = "<group>"; };
+		D67ECB8C21196BD3008C08ED /* AppConfigModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppConfigModel.m; sourceTree = "<group>"; };
 		D6B409A921182F060073C55A /* QCHttpTool.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QCHttpTool.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +104,8 @@
 				D60BFF7F2117F39F00ECF0C8 /* LaunchScreen.storyboard */,
 				D60BFF822117F39F00ECF0C8 /* Info.plist */,
 				D60BFF832117F39F00ECF0C8 /* main.m */,
+				D67ECB8B21196BD3008C08ED /* AppConfigModel.h */,
+				D67ECB8C21196BD3008C08ED /* AppConfigModel.m */,
 			);
 			path = QCHttpTool;
 			sourceTree = "<group>";
@@ -231,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D60BFF792117F39E00ECF0C8 /* ViewController.m in Sources */,
+				D67ECB8D21196BD3008C08ED /* AppConfigModel.m in Sources */,
 				D60BFF842117F39F00ECF0C8 /* main.m in Sources */,
 				D60BFF932117F57A00ECF0C8 /* QCHttpTool.m in Sources */,
 				D60BFF962117F65300ECF0C8 /* QCHttpClient.m in Sources */,
